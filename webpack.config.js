@@ -6,7 +6,7 @@ module.exports = {
 	},	
 	output: {
     	path: __dirname + "/app/temp/scripts",
-		filename: "[name].js",
+		filename: "[name].js"
 	},
 	module: {
 		loaders: [

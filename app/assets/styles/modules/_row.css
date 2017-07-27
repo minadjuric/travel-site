@@ -97,7 +97,7 @@
 	}
 
 	/*Begin Equal Height Rules*/
-	&--equal-hight-at-medium {
+	.flexbox &--equal-hight-at-medium {
 		@mixin atMedium {
 			display: flex;
 		}
@@ -108,7 +108,7 @@
 		}
 	}
 
-	&--equal-hight-at-large {
+	.flexbox &--equal-hight-at-large {
 		@mixin atLarge {
 			display: flex;
 		}
